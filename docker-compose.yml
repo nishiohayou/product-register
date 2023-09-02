@@ -25,3 +25,4 @@ services:
       - 'db-data:/var/lib/postgresql/data'
     environment:
       POSTGRES_PASSWORD: passpp
+      - 'POSTGRES_HOST_AUTH_METHOD=trust'
