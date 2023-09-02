@@ -9,3 +9,4 @@ script:
   - docker-compose --env 'RAILS_ENV=test' web rails db:create
   - docker-compose --env 'RAILS_ENV=test' web rails db:migrate
   - docker-compose --env 'RAILS_ENV=test' web rails test
+  
